@@ -37,7 +37,7 @@ def simple_bettor(funds, initial_wager,wager_count):
 x=0
 
 while (x<1000):
-	simple_bettor(10000,100,5)
+	simple_bettor(10000,100,10000)
 	x+=1
 
 plt.ylabel('Account Value')
